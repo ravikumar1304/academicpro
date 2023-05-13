@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stu.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    
+  <div class="container">
+    <div class="title"><h2>Student   Exam  Registration</h2></div>
+    <div class="content">
+      <form action="examreg.php" method="POST">
+        <div class="input">
+          <label class="details"><b>Course</b></label>
+
+            <select class="form-control" name="course">
+             
+                <option selected="564"><b>Select Course</b></option>
+                <option>Computer Science And Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Metallurgy Engineering</option>
+            </select>
+        </div>
+        
+        <div class="input">
+          <label class="details"><b>Semester</b></label>
+            
+          <select class="form-control" name="semester">
+           
+           
+              <option selected="564"><b>Select Your Semester</b></option>
+              <option>1st</option>
+              <option>2nd</option>
+              <option>3rd</option>
+              <option>4th</option>
+              <option>5th</option>
+              <option>6th</option>
+          </select>
+      </div>
+          <div class="input">
+            <label class="details"><b>Registration number</b></label>
+            <input type="value" name="registration_no" placeholder="Enter your Registration number" required>
+          </div>
+          <div class="input">
+            <label class="details"><b> Password</b></label>
+            <input type="password" name="password" placeholder="Enter your password" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
